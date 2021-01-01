@@ -1,5 +1,12 @@
 // Styling for the post page
+.hidden {
+  display: none;
+}
 .post-preview {
+  &:hover {
+    transform: translateX(10px);
+    transition: 0.5s;
+  }
   > a {
     color: $gray-900;
     &:focus,
