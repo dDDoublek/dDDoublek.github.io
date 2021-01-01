@@ -3,13 +3,13 @@
   position: absolute;
   border-bottom: 1px solid $gray-200;
   background-color: white;
-  @include sans-serif-font;
   .navbar-brand {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 1.3rem;
     font-weight: 800;
     color: $gray-800;
   }
   .navbar-toggler {
-    font-size: 12px;
     font-weight: 800;
     padding: 13px;
     text-transform: uppercase;
@@ -18,7 +18,8 @@
   .navbar-nav {
     > li.nav-item {
       > a {
-        font-size: 12px;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 1.15rem;
         font-weight: 800;
         letter-spacing: 1px;
         text-transform: uppercase;
@@ -30,20 +31,20 @@
     background: transparent;
     .navbar-brand {
       padding: 10px 20px;
-      color: $white;
+      color: $black;
       &:focus,
       &:hover {
-        color: fade-out($white, .2);
+        color: fade-out($black, 0.2);
       }
     }
     .navbar-nav {
       > li.nav-item {
         > a {
           padding: 10px 20px;
-          color: $white;
+          color: $black;
           &:focus,
           &:hover {
-            color: fade-out($white, .2);
+            color: fade-out($black, 0.2);
           }
         }
       }
@@ -67,8 +68,8 @@
       -webkit-transition: -webkit-transform 0.2s;
       -moz-transition: -moz-transform 0.2s;
       transition: transform 0.2s;
-      border-bottom: 1px solid darken($white, .05);
-      background-color: fade-out($white, .1);
+      border-bottom: 1px solid darken($white, 0.05);
+      background-color: fade-out($white, 0.1);
       .navbar-brand {
         color: $gray-900;
         &:focus,
