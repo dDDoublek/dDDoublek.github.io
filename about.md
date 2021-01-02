@@ -9,6 +9,8 @@ background: "/img/about-banner.png"
 
 ## 기록하며 성장하는 개발자 { 강한결 } 입니다.
 
+<img src="https://ghchart.rshah.org/e68805/hankyeolk" alt="hankyeolk's Github Contribution" />
+
 <p style="display: block; margin-top: 0px; margin-bottom: 40px" > </p>
 
 #### 저는
@@ -53,6 +55,8 @@ const hk_stacks = stack => {
   }
 };
 ```
+
+<p style="display: block; margin-top: 0px; margin-bottom: 12px" > </p>
 
 <p style="display: block; margin-top: 0px;margin-bottom: 40px" > </p>
 
