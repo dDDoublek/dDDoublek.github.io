@@ -1,23 +1,32 @@
-title: HK Blog
-email: 2247han@gmail.com
-description: 웹 개발자 강한결의 개발 블로그입니다.
-author: hankyeolk
+# Permalinks
+plugins: [jekyll-paginate]
+gems:
+  - jekyll-pagination
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Setup
+title: hankyeolk_개발 공부
 baseurl: ""
-url: "https://dDDoublek.github.io"
+url: "https://hankyeolk.github.io"
 
-# Social Profiles
-github_username: hankyeolk
-instagram_username: ddoublek.h
-rocket_username: 2247han
-
-# Add your google-analytics ID here to activate google analytics
-# google_analytics: UA-XXXXXXXXX-X # out your google-analytics code
+# Assets
+sass:
+  sass_dir: _sass
+  style: :compressed
 
 # Build settings
 markdown: kramdown
-paginate: 5
-paginate_path: "/posts/page:num/"
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+# About
+author:
+  name: hankyeolk
+  url: https://hankyeolk.github.io/
+  email: ddovlek@kakao.com
+  github: hankyeolk
+
+# Custom vars
+version: 1.0.0
+github:
+  repo: https://github.com/hankyeolk/hankyeolk.github.io
